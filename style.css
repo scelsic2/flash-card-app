@@ -1,0 +1,64 @@
+:root {
+    --my-background-color: #385D7B;
+    --my-major-accent-color: #7B385D;
+    --my-minor-accent-color: #5D7B38;
+    --my-shadow-color: #516C31;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--my-background-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.main-header {
+    margin: 25px 0px 45px;
+}
+
+.card-display {
+    padding: 25px;
+    border: 5px solid var(--my-minor-accent-color);
+    background-color: var(--my-major-accent-color);
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 5px 5px var(--my-shadow-color);
+}
+
+h3 {
+    background-color: var(--my-major-accent-color);
+    padding-bottom: 20px;
+}
+
+.card-display #timer-display {
+    padding: 25px;
+    border: 5px solid var(--my-major-accent-color);
+    background-color: var(--my-minor-accent-color);
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 0, auto;
+}
+
+button {
+    background-color: var(--my-minor-accent-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size:medium;
+    border: var(--my-shadow-color) outset 5px;
+}
+
+button:hover  {
+    border: var(--my-shadow-color) inset 5px;
+}
+
